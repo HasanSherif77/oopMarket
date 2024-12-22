@@ -1,0 +1,71 @@
+/* Global Background */
+.root {
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-width:100% ;
+    -fx-height:100% ;
+
+}
+
+/* Welcome and Register Labels */
+.welcome-label, .register-label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.notAUser-label{
+
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+/* Form Labels */
+.form-label {
+    -fx-font-size: 25px;
+    -fx-text-fill: black;
+}
+
+/* TextFields */
+.text-field, .password-field {
+    -fx-background-color: rgba(64, 64, 64, 0.8); /* Dark gray with transparency */
+    -fx-text-fill: white;
+    -fx-border-color: #555;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-pref-width:240px;
+    -fx-prompt-text-fill: rgba(255, 255, 255, 0.5);
+    -fx-pref-height:40px;
+
+}
+
+
+/* Buttons */
+.button {
+   -fx-background-color: rgba(245, 245, 245, 0.5); /* Light gray with slight transparency */
+   -fx-text-fill: black;
+   -fx-font-weight: bold;
+   -fx-background-radius: 20px;
+   -fx-border-radius: 20px;
+   -fx-border-color: transparent;
+   -fx-padding: 10px;
+
+}
+
+.button:hover {
+    -fx-background-color: green;
+}
+
+
+.dob-box {
+
+     -fx-border-color: #555;
+     -fx-background-color: rgba(64, 64, 64, 0.8); /* Dark gray with transparency */
+     -fx-text-fill: white;
+     -fx-font-weight: bold;
+     -fx-font-size: 12px;
+}
+.gender-box{
+     -fx-text-fill:black;
+     -fx-font-size: 15px;
+
+}
